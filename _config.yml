@@ -1,0 +1,57 @@
+title: Helsingin Choir
+description: A group of Chinese scholars&students based in Helsinki, Finland
+url: http://astro36.me/Materialize-Jekyll/
+keywords: ["music"]
+timezone: Europe/Helsinki
+permalink: pretty
+
+about: "Who are we? Where do we come from? Where are we heading?"
+
+author:
+  codepen: 
+  disqus: 
+  dribbble: 
+  email: astr36@naver.com
+  facebook: 
+  flickr: 
+  foursquare: 
+  github: Astro36 # required
+  google_analytics: UA-77377358-3
+  google_plus: 
+  instagram: 
+  lastfm: 
+  linkedin: 
+  name: Astro # required
+  pinterest: 
+  soundcloud: 
+  stackoverflow: 
+  steam: 
+  telegram: psj1026
+  tumblr: 
+  twitter: 
+  weibo: 
+  xing: 
+  youtube: 
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+
+kramdown:
+  input: GFM
+
+paginate: 5
+paginate_path: "/blog/page/:num/"
+
+sass:
+  style: compressed
