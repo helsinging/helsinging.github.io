@@ -1,0 +1,287 @@
+conductor:
+  - name_en: "Jiang Miao"
+    name_cn: "江淼"
+    avatar_url: "/assets/img/avatar/jiangmiao.jpg"
+    
+violin:
+  - name_en: "Qian Tianbo"
+    name_cn: "钱天波"
+    avatar_url: "/assets/img/avatar/qiantianbo.jpg"
+
+piano:
+  - name_en: "Liu Ying"
+    name_cn: "刘莹"
+    avatar_url: "/assets/img/avatar/liuying.jpg"
+
+  - name_en: "Sun Mengyi"
+    name_cn: "孙梦伊"
+    avatar_url: "/assets/img/avatar/sunmengyi.jpg"
+
+  - name_en: "Wang Jue"
+    name_cn: "王珏"
+    avatar_url: "/assets/img/avatar/wangjue.jpg"
+
+  - name_en: "Shi Suheng"
+    name_cn: "石苏恒"
+    avatar_url: "/assets/img/avatar/shisuheng.jpg"
+    
+soprano:
+  - name_en: "Yu Sushu"
+    name_cn: "俞苏舒"
+    avatar_url: "/assets/img/avatar/yusushu.jpg"
+
+  - name_en: "Guan Ting"
+    name_cn: "关婷"
+    avatar_url: "/assets/img/avatar/guanting.jpg"
+
+  - name_en: "Liu Yining"
+    name_cn: "刘伊宁"
+    avatar_url: "/assets/img/avatar/"
+
+  - name_en: "Xia Jingwen"
+    name_cn: "夏静雯"
+    avatar_url: "/assets/img/avatar/xiajingwen.jpg"
+    misc: "alto"
+    
+  - name_en: "Wang Haoxue"
+    name_cn: "王皓雪"
+    avatar_url: "/assets/img/avatar/wanghaoxue.jpg"
+    misc: "alto"
+
+  - name_en: "Zhuang Yuan"
+    name_cn: "庄园"
+    avatar_url: "/assets/img/avatar/zhuangyuan.jpg"
+
+  - name_en: "Pang Mengfei"
+    name_cn: "庞梦非"
+    avatar_url: "/assets/img/avatar/pangmengfei.jpg"
+
+  - name_en: "Zhang Yijing"
+    name_cn: "张弈婧"
+    avatar_url: "/assets/img/avatar/zhangyijing.jpg"
+
+  - name_en: "Xu Ping"
+    name_cn: "徐平"
+    avatar_url: "/assets/img/avatar/xuping.jpg"
+
+  - name_en: "Xu Yuan"
+    name_cn: "徐源"
+    avatar_url: "/assets/img/avatar/xuyuan.jpg"
+
+  - name_en: "Chen Xinjie"
+    name_cn: "陈心杰"
+    avatar_url: "/assets/img/avatar/chenxinjie.jpg"
+    misc: "conductor"
+
+  - name_en: "Yang Di"
+    name_cn: "杨狄"
+    avatar_url: "/assets/img/avatar/yangdi.jpg"
+
+  - name_en: "Lin Han"
+    name_cn: "林晗"
+    avatar_url: "/assets/img/avatar/linhan.jpg"
+
+  - name_en: "Yin Xiaoqing"
+    name_cn: "殷小青"
+    avatar_url: "/assets/img/avatar/yinxiaoqing.jpg"
+
+  - name_en: "Pan Xin"
+    name_cn: "潘欣"
+    avatar_url: "/assets/img/avatar/panxin.jpg"
+
+  - name_en: "Wang Xiaoqing"
+    name_cn: "王晓晴"
+    avatar_url: "/assets/img/avatar/wangxiaoqing.jpg"
+
+  - name_en: "Xiong Tianlinzi"
+    name_cn: "熊田凌子"
+    avatar_url: "/assets/img/avatar/xiongtianlinzi.jpg"
+    misc: "3rd leader"
+
+  - name_en: "Hu Nan"
+    name_cn: "胡南"
+    avatar_url: "/assets/img/avatar/hunan.jpg"
+
+  - name_en: "Dong Lanman"
+    name_cn: "董蓝蔓"
+    avatar_url: "/assets/img/avatar/donglanman.jpg"
+
+  - name_en: "Zhong Qianhui"
+    name_cn: "钟千惠"
+    avatar_url: "/assets/img/avatar/zhongqianhui.jpg"
+
+  - name_en: "Chen Jiajia"
+    name_cn: "陈佳佳"
+    avatar_url: "/assets/img/avatar/chenjiajia.jpg"
+
+  - name_en: "Chen Wanli"
+    name_cn: "陈婉丽"
+    avatar_url: "/assets/img/avatar/chenwanli.jpg"
+
+  - name_en: "Chen Wen"
+    name_cn: "陈文"
+    avatar_url: "/assets/img/avatar/chenwen.jpg"
+
+  - name_en: "Ma Ying"
+    name_cn: "马莹"
+    avatar_url: "/assets/img/avatar/maying.jpg"
+    
+alto:
+  - name_en: "Ran Wenjun"
+    name_cn: "冉文君"
+    avatar_url: "/assets/img/avatar/ranwenjun.jpg"
+
+  - name_en: "Zhou Lijing"
+    name_cn: "周丽晶"
+    avatar_url: "/assets/img/avatar/ranwenjun.jpg"
+
+  - name_en: "Song Yue"
+    name_cn: "宋玥"
+    avatar_url: "/assets/img/avatar/songyue.jpg"
+
+  - name_en: "Wang Changyin"
+    name_cn: "王畅吟"
+    avatar_url: "/assets/img/avatar/wangchangyin.jpg"
+    misc: "violin"
+
+  - name_en: "Liao Ke"
+    name_cn: "廖炣"
+    avatar_url: "/assets/img/avatar/liaoke.jpg"
+
+  - name_en: "Peng Shanyi"
+    name_cn: "彭珊怡"
+    avatar_url: "/assets/img/avatar/pengshanyi.jpg"
+
+  - name_en: "Wang Min"
+    name_cn: "王敏"
+    avatar_url: "/assets/img/avatar/wangmin.jpg"
+
+  - name_en: "Wang Sai"
+    name_cn: "王赛"
+    avatar_url: "/assets/img/avatar/wangsai.jpg"
+
+  - name_en: "Wang Bei"
+    name_cn: "王蓓"
+    avatar_url: "/assets/img/avatar/wangbei.jpg"
+    misc: "1st leader"
+
+  - name_en: "Zhao Yue"
+    name_cn: "赵玥"
+    avatar_url: "/assets/img/avatar/zhaoyue.jpg"
+    misc: "2nd leader"
+
+  - name_en: "Xu Danyun"
+    name_cn: "许单云"
+    avatar_url: "/assets/img/avatar/xudanyun.jpg"
+
+  - name_en: "Wei Ting"
+    name_cn: "魏婷"
+    avatar_url: "/assets/img/avatar/weiting.jpg"
+
+  - name_en: "Wei Xiaoyun"
+    name_cn: "魏晓韵"
+    avatar_url: "/assets/img/avatar/weixiaoyun.jpg"
+
+  - name_en: "Qi Wenjuan"
+    name_cn: "齐文娟"
+    avatar_url: "/assets/img/avatar/qiwenjuan.jpg"
+    
+bass:
+  - name_en: "He Xucheng"
+    name_cn: "何旭成"
+    avatar_url: "/assets/img/avatar/hexucheng.jpg"
+
+  - name_en: "Liu Ye"
+    name_cn: "刘晔"
+    avatar_url: "/assets/img/avatar/liuye.jpg"
+
+  - name_en: "Liu Jingwei"
+    name_cn: "刘经纬"
+    avatar_url: "/assets/img/avatar/liujingwei.jpg"
+
+  - name_en: "Tang Hui"
+    name_cn: "唐辉"
+    avatar_url: "/assets/img/avatar/tanghui.jpg"
+
+  - name_en: "Song Xuefeng"
+    name_cn: "宋学锋"
+    avatar_url: "/assets/img/avatar/songxuefeng.jpg"
+
+  - name_en: "Xu Jiang"
+    name_cn: "徐江"
+    avatar_url: "/assets/img/avatar/xujiang.jpg"
+
+  - name_en: "Yang Shun"
+    name_cn: "杨顺"
+    avatar_url: "/assets/img/avatar/yangshun.jpg"
+
+  - name_en: "Lin Jinquan"
+    name_cn: "林锦权"
+    avatar_url: "/assets/img/avatar/linjinquan.jpg"
+
+  - name_en: "Mao Zihao"
+    name_cn: "毛子豪"
+    avatar_url: "/assets/img/avatar/maozihao.jpg"
+
+  - name_en: "Jiao Kang"
+    name_cn: "焦康"
+    avatar_url: "/assets/img/avatar/jiaokang.jpg"
+
+  - name_en: "Jiang Tao"
+    name_cn: "蒋涛"
+    avatar_url: "/assets/img/avatar/jiangtao.jpg"
+
+  - name_en: "Zhao Zhe"
+    name_cn: "赵哲"
+    avatar_url: "/assets/img/avatar/zhaozhe.jpg"
+
+  - name_en: "Guo Hongxiao"
+    name_cn: "郭洪骁"
+    avatar_url: "/assets/img/avatar/guohongxiao.jpg"
+
+  - name_en: "Ma Shubin"
+    name_cn: "马述彬"
+    avatar_url: "/assets/img/avatar/mashubin.jpg"
+
+
+
+tenor:
+  - name_en: "She Ji"
+    name_cn: "佘佶"
+    avatar_url: "/assets/img/avatar/sheji.jpg"
+
+  - name_en: "Liao Ding"
+    name_cn: "廖丁"
+    avatar_url: "/assets/img/avatar/liaoding.jpg"
+
+  - name_en: "Zhang Xinyan"
+    name_cn: "张鑫焱"
+    avatar_url: "/assets/img/avatar/zhangxinyan.jpg"
+
+  - name_en: "Xu Hongbo"
+    name_cn: "徐鸿博"
+    avatar_url: "/assets/img/avatar/xuhongbo.jpg"
+
+  - name_en: "Yang Xiaochang"
+    name_cn: "杨晓畅"
+    avatar_url: "/assets/img/avatar/yangxiaochang.jpg"
+
+  - name_en: "Lin Ziyuan"
+    name_cn: "林子元"
+    avatar_url: "/assets/img/avatar/linziyuan.jpg"
+
+  - name_en: "Wang Jiakun"
+    name_cn: "王家琨"
+    avatar_url: "/assets/img/avatar/wangjiakun.jpg"
+
+  - name_en: "Xiao Han"
+    name_cn: "肖晗"
+    avatar_url: "/assets/img/avatar/xiaohan.png"
+
+  - name_en: "Zou Xiaochen"
+    name_cn: "邹晓晨"
+    avatar_url: "/assets/img/avatar/zouxiaochen.jpg"
+
+  - name_en: "Chen Luyao"
+    name_cn: "陈鲁遥"
+    avatar_url: "/assets/img/avatar/chenluyao.jpg"
