@@ -2,28 +2,49 @@ conductor:
   - name_en: "Jiang Miao"
     name_cn: "江淼"
     avatar_url: "/assets/img/avatar/jiangmiao.jpg"
+    current: true
+
+leader:
+  - name_en: "Lin Ziyuan"
+    name_cn: "林子元"
+    avatar_url: "/assets/img/avatar/linziyuan.jpg"
+    current: true
+
+  - name_en: "Zhao Yue"
+    name_cn: "赵玥"
+    avatar_url: "/assets/img/avatar/zhaoyue.jpg"
+    misc: "2nd leader"
+
+  - name_en: "Wang Bei"
+    name_cn: "王蓓"
+    avatar_url: "/assets/img/avatar/wangbei.jpg"
+    misc: "1st leader"
     
-violin:
+instrumentist:
   - name_en: "Qian Tianbo"
     name_cn: "钱天波"
     avatar_url: "/assets/img/avatar/qiantianbo.jpg"
+    misc: "violin"
 
-piano:
   - name_en: "Liu Ying"
     name_cn: "刘莹"
     avatar_url: "/assets/img/avatar/liuying.jpg"
+    misc: "piano"
 
   - name_en: "Sun Mengyi"
     name_cn: "孙梦伊"
     avatar_url: "/assets/img/avatar/sunmengyi.jpg"
-
+    misc: "piano"
+    
   - name_en: "Wang Jue"
     name_cn: "王珏"
     avatar_url: "/assets/img/avatar/wangjue.jpg"
-
+    misc: "piano"
+    
   - name_en: "Shi Suheng"
     name_cn: "石苏恒"
     avatar_url: "/assets/img/avatar/shisuheng.jpg"
+    misc: "piano"
     
 soprano:
   - name_en: "Yu Sushu"
@@ -36,12 +57,14 @@ soprano:
 
   - name_en: "Liu Yining"
     name_cn: "刘伊宁"
-    avatar_url: "/assets/img/avatar/"
+    avatar_url: "/assets/img/avatar/liuyining.jpg"
+    current: true    
 
   - name_en: "Xia Jingwen"
     name_cn: "夏静雯"
     avatar_url: "/assets/img/avatar/xiajingwen.jpg"
     misc: "alto"
+    current: true
     
   - name_en: "Wang Haoxue"
     name_cn: "王皓雪"
@@ -72,7 +95,8 @@ soprano:
     name_cn: "陈心杰"
     avatar_url: "/assets/img/avatar/chenxinjie.jpg"
     misc: "conductor"
-
+    current: true
+    
   - name_en: "Yang Di"
     name_cn: "杨狄"
     avatar_url: "/assets/img/avatar/yangdi.jpg"
@@ -97,7 +121,8 @@ soprano:
     name_cn: "熊田凌子"
     avatar_url: "/assets/img/avatar/xiongtianlinzi.jpg"
     misc: "3rd leader"
-
+    current: true
+    
   - name_en: "Hu Nan"
     name_cn: "胡南"
     avatar_url: "/assets/img/avatar/hunan.jpg"
@@ -117,7 +142,8 @@ soprano:
   - name_en: "Chen Wanli"
     name_cn: "陈婉丽"
     avatar_url: "/assets/img/avatar/chenwanli.jpg"
-
+    current: true
+    
   - name_en: "Chen Wen"
     name_cn: "陈文"
     avatar_url: "/assets/img/avatar/chenwen.jpg"
@@ -133,8 +159,9 @@ alto:
 
   - name_en: "Zhou Lijing"
     name_cn: "周丽晶"
-    avatar_url: "/assets/img/avatar/ranwenjun.jpg"
-
+    avatar_url: "/assets/img/avatar/zhoulijing.jpg"
+    current: true
+    
   - name_en: "Song Yue"
     name_cn: "宋玥"
     avatar_url: "/assets/img/avatar/songyue.jpg"
@@ -160,16 +187,6 @@ alto:
     name_cn: "王赛"
     avatar_url: "/assets/img/avatar/wangsai.jpg"
 
-  - name_en: "Wang Bei"
-    name_cn: "王蓓"
-    avatar_url: "/assets/img/avatar/wangbei.jpg"
-    misc: "1st leader"
-
-  - name_en: "Zhao Yue"
-    name_cn: "赵玥"
-    avatar_url: "/assets/img/avatar/zhaoyue.jpg"
-    misc: "2nd leader"
-
   - name_en: "Xu Danyun"
     name_cn: "许单云"
     avatar_url: "/assets/img/avatar/xudanyun.jpg"
@@ -190,7 +207,8 @@ bass:
   - name_en: "He Xucheng"
     name_cn: "何旭成"
     avatar_url: "/assets/img/avatar/hexucheng.jpg"
-
+    current: true
+    
   - name_en: "Liu Ye"
     name_cn: "刘晔"
     avatar_url: "/assets/img/avatar/liuye.jpg"
@@ -226,7 +244,8 @@ bass:
   - name_en: "Jiao Kang"
     name_cn: "焦康"
     avatar_url: "/assets/img/avatar/jiaokang.jpg"
-
+    current: true
+    
   - name_en: "Jiang Tao"
     name_cn: "蒋涛"
     avatar_url: "/assets/img/avatar/jiangtao.jpg"
@@ -244,7 +263,6 @@ bass:
     avatar_url: "/assets/img/avatar/mashubin.jpg"
 
 
-
 tenor:
   - name_en: "She Ji"
     name_cn: "佘佶"
@@ -257,7 +275,8 @@ tenor:
   - name_en: "Zhang Xinyan"
     name_cn: "张鑫焱"
     avatar_url: "/assets/img/avatar/zhangxinyan.jpg"
-
+    current: true
+    
   - name_en: "Xu Hongbo"
     name_cn: "徐鸿博"
     avatar_url: "/assets/img/avatar/xuhongbo.jpg"
@@ -265,11 +284,7 @@ tenor:
   - name_en: "Yang Xiaochang"
     name_cn: "杨晓畅"
     avatar_url: "/assets/img/avatar/yangxiaochang.jpg"
-
-  - name_en: "Lin Ziyuan"
-    name_cn: "林子元"
-    avatar_url: "/assets/img/avatar/linziyuan.jpg"
-
+    
   - name_en: "Wang Jiakun"
     name_cn: "王家琨"
     avatar_url: "/assets/img/avatar/wangjiakun.jpg"
@@ -277,6 +292,7 @@ tenor:
   - name_en: "Xiao Han"
     name_cn: "肖晗"
     avatar_url: "/assets/img/avatar/xiaohan.png"
+    current: true
 
   - name_en: "Zou Xiaochen"
     name_cn: "邹晓晨"

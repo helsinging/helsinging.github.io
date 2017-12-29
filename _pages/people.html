@@ -1,0 +1,179 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+
+
+<div class="container">
+  <!-- <ul id="slide-out" class="side-nav fixed"> -->
+  <!--   <li><a href="#current_members">Current members</a></li> -->
+  <!--   <li><a href="#former_members">Former members</a></li> -->
+  <!-- </ul> -->
+
+  <div id="current_members" class="section">
+    <h2 class="deep-purple-text">Current memebers</h2>
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Leader</h4>
+      </div>
+      <div class="col s12 m3">
+
+	{% for p in site.data.people.leader %}
+	{% if p.current == true %}
+	<div class="card">
+	  <div class="card-image">
+	    <img src='{{p.avatar_url}}' class="responsive-img "/>
+	  </div>
+	  <div class="card-content">
+	    <h5> {{p.name_en}} </h5>
+	    <h5> {{p.name_cn}} </h5>
+	  </div>
+	</div>
+	{% endif  %}
+	{% endfor %}
+
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Conductor</h4>
+      </div>
+      <div class="col s12 m3">
+	{% for p in site.data.people.conductor %}
+	{% if p.current == true %}
+	<div class="card">
+	  <div class="card-image">
+	    <img src='{{p.avatar_url}}' class="responsive-img "/>
+	  </div>
+	  <div class="card-content">
+	    <h5> {{p.name_en}} </h5>
+	    <h5> {{p.name_cn}} </h5>
+	  </div>
+	</div>
+	{% endif  %}
+	{% endfor %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Instrumentist</h4>
+      </div>
+      <div class="col s12 m9">
+	  {% for p in site.data.people.instrumentist %}
+	  {% if p.current == true %}
+	  <div class="col s12 m3">
+	    <div class="card">
+	      <div class="card-image">
+		<img src='{{p.avatar_url}}' class="responsive-img "/>
+	      </div>
+	      <div class="card-content">
+		<h5> {{p.name_en}} </h5>
+		<h5> {{p.name_cn}} </h5>
+	      </div>
+	    </div>
+	  </div>
+	  {% endif  %}
+	  {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Soprano</h4>
+      </div>
+      <div class="col s12 m9">
+	{% for p in site.data.people.soprano %}
+	{% if p.current == true %}
+	<div class="col s12 m4">
+	  <div class="card">
+	    <div class="card-image">
+	      <img src='{{p.avatar_url}}' class="responsive-img "/>
+	    </div>
+	    <div class="card-content">
+	      <h5> {{p.name_en}} </h5>
+	      <h5> {{p.name_cn}} </h5>
+	    </div>
+	  </div>
+	</div>
+	{% endif  %}
+	{% endfor %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Alto</h4>
+      </div>
+      <div class="col s12 m9">
+	{% for p in site.data.people.alto %}
+	{% if p.current == true %}
+	<div class="col s12 m4">
+	  <div class="card">
+	    <div class="card-image">
+	      <img src='{{p.avatar_url}}' class="responsive-img "/>
+	    </div>
+	    <div class="card-content">
+	      <h5> {{p.name_en}} </h5>
+	      <h5> {{p.name_cn}} </h5>
+	    </div>
+	  </div>
+	</div>
+	{% endif  %}
+	{% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Tenor</h4>
+      </div>
+      <div class="col s12 m9">
+	{% for p in site.data.people.tenor %}
+	{% if p.current == true %}
+	<div class="col s12 m4">
+	  <div class="card">
+	    <div class="card-image">
+	      <img src='{{p.avatar_url}}' class="responsive-img "/>
+	    </div>
+	    <div class="card-content">
+	      <h5> {{p.name_en}} </h5>
+	      <h5> {{p.name_cn}} </h5>
+	    </div>
+	  </div>
+	</div>
+	{% endif  %}
+	{% endfor %}
+      </div>
+    </div>        
+
+    <div class="row">
+      <div class="col s12 m3">
+	<h4 class="deep-purple-text">Bass</h4>
+      </div>
+      <div class="col s12 m9">
+	{% for p in site.data.people.bass %}
+	{% if p.current == true %}
+	<div class="col s12 m4">
+	  <div class="card">
+	    <div class="card-image">
+	      <img src='{{p.avatar_url}}' class="responsive-img "/>
+	    </div>
+	    <div class="card-content">
+	      <h5> {{p.name_en}} </h5>
+	      <h5> {{p.name_cn}} </h5>
+	    </div>
+	  </div>
+	</div>
+	{% endif  %}
+	{% endfor %}
+      </div>
+    </div>        
+    
+  </div>
+
+</div>  
