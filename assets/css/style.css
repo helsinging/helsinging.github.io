@@ -21,3 +21,12 @@ nav {
 nav a { color: #fff; }
 nav ul a { color: #fff; }
 nav .brand-logo { color: #fff; }
+
+.card-content h5 {
+    margin-top: 0;
+    margin-left: 0.25rem;
+}
+
+.card-content {
+    padding: 16px !important;
+}

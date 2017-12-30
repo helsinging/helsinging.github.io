@@ -1,14 +1,22 @@
 <div class="navbar-fixed">
   <nav>
+    <ul id="people_dropdown" class="dropdown-content">
+      <li><a href="/current_members/">Current</a></li>
+      <li><a href="/former_members/">Former</a></li>
+    </ul>
     <div class="nav-wrapper">
-      <a class="brand-logo logo-font center" href="{{ site.url }}" style="max-width: 50%; max-height: 56px; overflow:hidden;">{{ site.title }}</a>
+      <a class="brand-logo logo-font center" href="/" style="max-width: 50%; max-height: 56px; overflow:hidden;">{{ site.title }}</a>
       <a class="button-collapse" data-activates="mobile-nav" href="#"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="logo-font" href="{{ site.url }}">Home</a></li>
-        <li><a class="logo-font" href="{{ url }}/about/">Events</a></li>
-	<li><a class="logo-font" href="{{ url }}/about/">People</a></li>
-	<li><a class="logo-font" href="{{ url }}/about/">Join us</a></li>
-        <!-- <li><a class="dropdown-button" href="#!" data-activates="dropdown-menu" data-beloworigin="true"><span class="logo-font">Blog</span><i class="material-icons right">arrow_drop_down</i></a></li> -->
+        <li><a class="logo-font" href="/">Home</a></li>
+        <li><a class="logo-font" href="/events">Events</a></li>
+	<li>
+	  
+	  <a class="logo-font dropdown-button" data-beloworigin="true" data-activates="people_dropdown" href="#!">
+	    People <i class="material-icons right">arrow_drop_down</i>	    
+	  </a>
+	</li>
+	<li><a class="logo-font" href="/about/">About</a></li>	
       </ul>
     </div>
   </nav>
@@ -24,32 +32,31 @@
 <!-- </ul> -->
 
 <ul class="side-nav" id="mobile-nav">
-  <li>
-    <div class="user-view">
-      <div class="background deep-purple"></div>
-      <img class="circle materialboxed" data-caption="{{ site.author.name }}" src="https://github.com/{{ site.author.github }}.png" alt="Avatar">
-      <span class="white-text name">{{ site.author.name }}</span>
-      {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}"><span class="white-text email">{{ site.author.email }}</span></a>
-      {% endif %}
-    </div>
-  </li>
-  <li><a class="waves-effect" href="{{ site.url }}">Home</a></li>
-  <li><a class="waves-effect" href="{{ url }}/about/">About</a></li>
+  <!-- <li> -->
+  <!--   <div class="user-view"> -->
+  <!--     <div class="background deep-purple"></div> -->
+  <!--     <img class="circle materialboxed" data-caption="{{ site.author.name }}" src="https://github.com/{{ site.author.github }}.png" alt="Avatar"> -->
+  <!--     <span class="white-text name">{{ site.author.name }}</span> -->
+  <!--     {% if site.author.email %} -->
+  <!--     <a href="mailto:{{ site.author.email }}"><span class="white-text email">{{ site.author.email }}</span></a> -->
+  <!--     {% endif %} -->
+  <!--   </div> -->
+  <!-- </li> -->
+  <li><a class="waves-effect" href="/">Home</a></li>
+  <li><a class="waves-effect" href="/events/">Events</a></li>
   <li class="no-padding">
     <ul class="collapsible collapsible-accordion" id="nav-blog">
       <li>
-        <a class="collapsible-header waves-effect">Blog</a>
+        <a class="collapsible-header waves-effect">People</a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="{{ url }}/blog/">Posts</a></li>
-            <li><a href="{{ url }}/archive/">Archive</a></li>
-            <li><a href="{{ url }}/categories/">Categories</a></li>
-            <li><a href="{{ url }}/tags/">Tags</a></li>
+	    <li><a href="/current_members/">Current</a></li>
+	    <li><a href="/former_members/">Former</a></li>	    
           </ul>
         </div>
       </li>
     </ul>
-  </li>
-  <li><a class="waves-effect" href="{{ url }}/resources/">Resources</a></li>
+  </li>  
+  <li><a class="waves-effect" href="/about/">About</a></li>
+  <!-- <li><a class="waves-effect" href="/resources/">Resources</a></li> -->
 </ul>

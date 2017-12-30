@@ -3,9 +3,6 @@ title: "Lorem Ipsum"
 author: Astro36
 category: notice
 tags: ['lorem', 'ipsum']
-image:
-  path: https://unsplash.com/photos/DrLtv2bgXSc/download?force=true
-  copyright: Adrian Infernus
 ccl: by-nc-nd
 ---
 

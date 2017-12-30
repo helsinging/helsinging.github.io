@@ -1,91 +1,32 @@
 ---
 layout: default
-title: Former member
+title: Former members
 permalink: /former_members/
 ---
 
-
 <div class="container">
-
-  <div id="former_members" class="section">
+  <div id="current_members" class="section">
     <h2 class="deep-purple-text">Former memebers</h2>
-    <div class="row">
-      <div class="col s12 m3">
-	<h4 class="deep-purple-text">Leader</h4>
-      </div>
-      <div class="col s12 m9">
+    {% assign roles = "captain,instrumentist,soprano,alto,tenor,bass" | split: ','%}
 
-	{% for p in site.data.people.leader %}
-	{% unless p.current %}
-	<div class="col s12 m4">
-	  <div class="card">
-	    <div class="card-image">
-	      <img src='{{p.avatar_url}}' class="responsive-img "/>
-	    </div>
-	    <div class="card-content">
-	      <h5> {{p.name_en}} </h5>
-	      <h5> {{p.name_cn}} </h5>
-	    </div>
-	  </div>
-	</div>
-	{% endunless  %}
-	{% endfor %}
+    {% for role in roles %}
 
-      </div>
-    </div>
+    {% assign n_cols = 3.0 %}
+    {% assign persons = site.data.former[role] | sort: "name_en" %}
+    {% assign rows = persons.size | divided_by: n_cols | ceil %}
     
+    {% for i in (1..rows) %}
+    {% assign offset = forloop.index0 | times: n_cols %}
     <div class="row">
       <div class="col s12 m3">
-	<h4 class="deep-purple-text">Conductor</h4>
-      </div>
-      <div class="col s12 m3">
-	{% for p in site.data.people.conductor %}
-	{% unless p.current %}
-	<div class="card">
-	  <div class="card-image">
-	    <img src='{{p.avatar_url}}' class="responsive-img "/>
-	  </div>
-	  <div class="card-content">
-	    <h5> {{p.name_en}} </h5>
-	    <h5> {{p.name_cn}} </h5>
-	  </div>
-	</div>
-	{% endunless  %}
-	{% endfor %}
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 m3">
-	<h4 class="deep-purple-text">Instrumentist</h4>
+	<h4 class="deep-purple-text">
+	  {% if i == 1 %}
+	  {{role | capitalize}}
+	  {% endif %}
+	</h4>
       </div>
       <div class="col s12 m9">
-	{% for p in site.data.people.instrumentist %}
-	{% unless p.current %}
-	<div class="col s12 m4">
-	  <div class="card">
-	    <div class="card-image">
-	      <img src='{{p.avatar_url}}' class="responsive-img"/>
-	    </div>
-	    <div class="card-content">
-	      <h5> {{p.name_en}} </h5>
-	      <h5> {{p.name_cn}} </h5>
-	    </div>
-	  </div>
-	</div>
-	{% endunless  %}
-	{% endfor %}
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col s12 m3">
-	<h4 class="deep-purple-text">Soprano</h4>
-      </div>
-      <div class="col s12 m9">
-	{% for p in site.data.people.soprano %}
-	{% unless p.current %}
+	{% for p in persons limit:n_cols offset:offset %}
 	<div class="col s12 m4">
 	  <div class="card">
 	    <div class="card-image">
@@ -97,80 +38,10 @@ permalink: /former_members/
 	    </div>
 	  </div>
 	</div>
-	{% endunless   %}
 	{% endfor %}
       </div>
     </div>
+    {% endfor %}
+    {% endfor %}
 
-    <div class="row">
-      <div class="col s12 m3">
-	<h4 class="deep-purple-text">Alto</h4>
-      </div>
-      <div class="col s12 m9">
-	{% for p in site.data.people.alto %}
-	{% unless p.current %}
-	<div class="col s12 m4">
-	  <div class="card">
-	    <div class="card-image">
-	      <img src='{{p.avatar_url}}' class="responsive-img "/>
-	    </div>
-	    <div class="card-content">
-	      <h5> {{p.name_en}} </h5>
-	      <h5> {{p.name_cn}} </h5>
-	    </div>
-	  </div>
-	</div>
-	{% endunless  %}
-	{% endfor %}
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col s12 m3">
-	<h4 class="deep-purple-text">Tenor</h4>
-      </div>
-      <div class="col s12 m9">
-	{% for p in site.data.people.tenor %}
-	{% unless p.current %}
-	<div class="col s12 m4">
-	  <div class="card">
-	    <div class="card-image">
-	      <img src='{{p.avatar_url}}' class="responsive-img "/>
-	    </div>
-	    <div class="card-content">
-	      <h5> {{p.name_en}} </h5>
-	      <h5> {{p.name_cn}} </h5>
-	    </div>
-	  </div>
-	</div>
-	{% endunless  %}
-	{% endfor %}
-      </div>
-    </div>        
-
-    <div class="row">
-      <div class="col s12 m3">
-	<h4 class="deep-purple-text">Bass</h4>
-      </div>
-      <div class="col s12 m9">
-	{% for p in site.data.people.bass %}
-	{% unless p.current %}
-	<div class="col s12 m4">
-	  <div class="card">
-	    <div class="card-image">
-	      <img src='{{p.avatar_url}}' class="responsive-img "/>
-	    </div>
-	    <div class="card-content">
-	      <h5> {{p.name_en}} </h5>
-	      <h5> {{p.name_cn}} </h5>
-	    </div>
-	  </div>
-	</div>
-	{% endunless  %}
-	{% endfor %}
-      </div>
-    </div>        
-    
-  </div>  
-</div>
+</div>  
