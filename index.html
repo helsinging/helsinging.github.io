@@ -10,15 +10,17 @@ layout: default
 </div>
         
 <div class="section no-pad">
-  <div class="valign-wrapper" style="height: 394;">
-    <div class="container">
+  <div class="valign-wrapper" style="height: 394px;">
+    <div class="container" style="position: relative;">
       <!-- <div class="center" style="height:125px"> -->
       <!-- 	<img src="/assets/img/logo-150.jpg" class="responsive-img" style="width: auto; max-height: 100%"/> -->
       <!-- </div> -->
       <h1 class="row center purple-text logo-font">{{ site.title }}</h1>
       <h2 class="row center purple-text logo-font"> {{ site.title_cn }}</h2>
+      <img src="/assets/img/logo-new.png" class="responsive-img right" style="width: auto; max-height: 200px; position: absolute; top:0px; right: 0px;"/>
       <div class="row center">
         <h5 class="col s12 purple-text logo-font">{{ site.description }}</h5>
+	<h5 class="col s12 purple-text logo-font">{{ site.description_more }}</h5>	
       </div>
       <!-- <div class="row center"> -->
       <!--   <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/about/" style="border: 1px #fff solid; margin-right: 4px;">About</a> -->
@@ -35,32 +37,30 @@ layout: default
   <div class="parallax"><img src="/assets/img/cover-images/grassland.jpg" onload="fadeIn(this)" style="display:none"></div>
 </div>
 
-<div id="events" class="container scrollspy">
-  <div class="section">
-    <div class="row">
-      <div class="col s12">
-        <h3 class="purple-text center logo-font" id="latest-images">Latest Events</h3>
-      </div>
-      {% for post in site.posts %}
-        {% if post.image.path %}
-        <div class="col s12 m6">
-          <article>
-            <div class="card">
-              <div class="card-image">
-                <img class="materialboxed" data-caption="© {{ post.image.copyright }}" src="{{ post.image.path }}">
-                <span class="card-title" style="background-color: rgba(0,0,0,.3); cursor: pointer; padding: 8px 24px; width: 100%;" onclick="window.location={{ post.url }}'">
-		  <a href="{{ post.url }}">
-                    {{ post.title }}<time datetime="{{ post.date }}" style="font-size: 16px;"> | {{ post.date | date_to_string }}</time>
-		  </a>
-                </span>
-              </div>
-            </div>
-          </article>
-        </div>
-        {% endif %}
-      {% endfor %}
+<div id="events" class="container">
+  <div class="row">
+    <div class="col s12">
+      <h3 class="purple-text center logo-font">Latest Events</h3>
     </div>
-  </div>  
+    {% for post in site.posts %}
+    {% if post.image.path %}
+    <div class="col s12 m6">
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img class="materialboxed" data-caption="© {{ post.image.copyright }}" src="{{ post.image.path }}">
+            <span class="card-title" style="background-color: rgba(0,0,0,.3); cursor: pointer; padding: 8px 24px; width: 100%;">
+	      <a href="{{ post.url }}">
+                {{ post.title }}<time datetime="{{ post.date }}" style="font-size: 16px;"> | {{ post.date | date_to_string }}</time>
+	      </a>
+            </span>
+          </div>
+        </div>
+      </article>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 <div class="parallax-container">
@@ -71,7 +71,7 @@ layout: default
   </div>
 </div>
 
-<div id="contact" class="container scrollspy">
+<div id="contact" class="container">
   <div class="row">
     <div class="col s12 offset">
       <h3 class="purple-text center logo-font">Contact Us</h3>

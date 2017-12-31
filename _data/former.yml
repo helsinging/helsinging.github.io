@@ -37,10 +37,6 @@ instrumentist:
 
 
 soprano:
-  - name_en: "Yu Sushu"
-    name_cn: "俞苏舒"
-    avatar_url: "/assets/img/avatar/yusushu.jpg"
-
   - name_en: "Guan Ting"
     name_cn: "关婷"
     avatar_url: "/assets/img/avatar/guanting.jpg"
@@ -116,6 +112,10 @@ soprano:
 
 
 alto:
+  - name_en: "Yu Sushu"
+    name_cn: "俞苏舒"
+    avatar_url: "/assets/img/avatar/yusushu.jpg"
+
   - name_en: "Ran Wenjun"
     name_cn: "冉文君"
     avatar_url: "/assets/img/avatar/ranwenjun.jpg"
@@ -212,6 +212,10 @@ bass:
   - name_en: "Ma Shubin"
     name_cn: "马述彬"
     avatar_url: "/assets/img/avatar/mashubin.jpg"
+
+  - name_en: "Li Haoran"
+    name_cn: "李浩然"
+    avatar_url: ""
 
 tenor:
   - name_en: "She Ji"

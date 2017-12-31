@@ -37,6 +37,14 @@ alto:
   - name_en: "Zhou Lijing"
     name_cn: "周丽晶"
     avatar_url: "/assets/img/avatar/zhoulijing.jpg"
+
+  - name_en: "Wang Zhuo"
+    name_cn: "王卓"
+    avatar_url: ""
+
+  - name_en: "Liang Xiaohan"
+    name_cn: "梁效涵"
+    avatar_url: ""
     
 bass:
   - name_en: "He Xucheng"
@@ -46,9 +54,26 @@ bass:
   - name_en: "Jiao Kang"
     name_cn: "焦康"
     avatar_url: "/assets/img/avatar/jiaokang.jpg"
-    
+
+  - name_en: "Luo Wenbin"
+    name_cn: "雒文斌"
+    avatar_url: ""
+
+instrumentist:
+  - name_en: "Qu Chen"
+    name_cn: "曲辰"
+    avatar_url: ""
+
 
 tenor:
+  - name_en: "Lin Ziyuan"
+    name_cn: "林子元"
+    avatar_url: "/assets/img/avatar/linziyuan.jpg"
+
+  - name_en: "Chen Wenlong"
+    name_cn: "陈闻龙"
+    avatar_url: ""
+
   - name_en: "Zhang Xinyan"
     name_cn: "张鑫焱"
     avatar_url: "/assets/img/avatar/zhangxinyan.jpg"

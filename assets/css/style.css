@@ -8,10 +8,12 @@
 .logo-font { font-family: 'Quicksand', sans-serif; }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  width: 100%;
+    min-height: 380px;
+    height: 600px;
+    line-height: 0;
+    /* height: auto; */
+    bottom: auto;
+    width: 100%;
 }
 
 
@@ -45,4 +47,8 @@ nav .brand-logo { color: #fff; }
 
 #events .card .card-title a {
     color: #fff;
+}
+
+.nav-wrapper i.material-icons{
+    margin-left: 0px;
 }
