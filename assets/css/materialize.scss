@@ -45,3 +45,8 @@
 @import "components/date_picker/default";
 @import "components/date_picker/default.date";
 @import "components/date_picker/default.time";
+
+.parallax img {
+    @media #{$small-and-down} { max-width: 500%; }
+    @media #{$medium-and-up} { width: 100%; }	
+}
