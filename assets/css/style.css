@@ -10,17 +10,29 @@
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto; }
+  height: auto;
+  width: 100%;
+}
+
+
+.parallax-container img { width: 100%; }
+
+/* from https://github.com/Dogfalo/materialize/issues/3036 */
+
+
 
 .parallax-container .section { width: 100%; }
 
 nav {
     background-color: #673ab7;
     box-shadow: none;
-    color: #fff; }
+    color: #fff;
+}
 nav a { color: #fff; }
 nav ul a { color: #fff; }
 nav .brand-logo { color: #fff; }
+
+
 
 .card-content h5 {
     margin-top: 0;
@@ -29,4 +41,8 @@ nav .brand-logo { color: #fff; }
 
 .card-content {
     padding: 16px !important;
+}
+
+#events .card .card-title a {
+    color: #fff;
 }

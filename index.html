@@ -5,12 +5,20 @@ layout: default
 
 {% capture url %}{{ site.url | append: "$" | replace: "/$", "" | replace: "$", "" }}{% endcapture %}
 
-<div class="section no-pad deep-purple">
-  <div class="valign-wrapper" style="height: 380px;">
+<div class="parallax-container">
+  <div class="parallax"><img src="/assets/img/cover-images/2016.jpg" onload="fadeIn(this)" style="display:none"></div>
+</div>
+        
+<div class="section no-pad">
+  <div class="valign-wrapper" style="height: 394;">
     <div class="container">
-      <h1 class="row center white-text logo-font">{{ site.title }}</h1>
+      <!-- <div class="center" style="height:125px"> -->
+      <!-- 	<img src="/assets/img/logo-150.jpg" class="responsive-img" style="width: auto; max-height: 100%"/> -->
+      <!-- </div> -->
+      <h1 class="row center purple-text logo-font">{{ site.title }}</h1>
+      <h2 class="row center purple-text logo-font"> {{ site.title_cn }}</h2>
       <div class="row center">
-        <h5 class="col s12 white-text logo-font">{{ site.description }}</h5>
+        <h5 class="col s12 purple-text logo-font">{{ site.description }}</h5>
       </div>
       <!-- <div class="row center"> -->
       <!--   <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/about/" style="border: 1px #fff solid; margin-right: 4px;">About</a> -->
@@ -23,11 +31,15 @@ layout: default
   </div>
 </div>
 
-<div class="container">
+<div class="parallax-container">
+  <div class="parallax"><img src="/assets/img/cover-images/grassland.jpg" onload="fadeIn(this)" style="display:none"></div>
+</div>
+
+<div id="events" class="container scrollspy">
   <div class="section">
     <div class="row">
       <div class="col s12">
-        <h4 class="deep-purple-text" id="latest-images">Latest Events</h4>
+        <h3 class="purple-text center logo-font" id="latest-images">Latest Events</h3>
       </div>
       {% for post in site.posts %}
         {% if post.image.path %}
@@ -37,7 +49,9 @@ layout: default
               <div class="card-image">
                 <img class="materialboxed" data-caption="© {{ post.image.copyright }}" src="{{ post.image.path }}">
                 <span class="card-title" style="background-color: rgba(0,0,0,.3); cursor: pointer; padding: 8px 24px; width: 100%;" onclick="window.location={{ post.url }}'">
-                  {{ post.title }}<time datetime="{{ post.date }}" style="font-size: 16px;"> | {{ post.date | date_to_string }}</time>
+		  <a href="{{ post.url }}">
+                    {{ post.title }}<time datetime="{{ post.date }}" style="font-size: 16px;"> | {{ post.date | date_to_string }}</time>
+		  </a>
                 </span>
               </div>
             </div>
@@ -46,5 +60,57 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
+  </div>  
+</div>
+
+<div class="parallax-container">
+  <div class="parallax">
+    
+    <img src="/assets/img/cover-images/xinjie.jpg" onload="fadeIn(this)" style="display:none">
+    
+  </div>
+</div>
+
+<div id="contact" class="container scrollspy">
+  <div class="row">
+    <div class="col s12 offset">
+      <h3 class="purple-text center logo-font">Contact Us</h3>
+    </div>
+  </div>
+  <div class="row">
+    <form class="col s12 m10 offset-m1"  method="POST" action="http://formspree.io/{{ site.author.email }}">
+      <div class="row">
+	<div class="input-field col s6 m5">
+    	  <input id="first_name" type="text">
+    	  <label for="first_name">First name</label>
+	</div>
+	<div class="input-field col s6 m5 right">
+    	  <input id="last_name" type="text">
+    	  <label for="last_name">Last name</label>
+	</div>
+      </div>
+
+      
+      <div class="row">
+	<div class="input-field col s12">
+	  <input id="email" type="email" class="validate" name="email">
+	  <label for="email">Your email</label>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="input-field col s12">
+	  <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
+	  <label for="textarea1">Message</label>
+	</div>
+      </div>
+
+      <div class="center">
+	<button class="btn btn-large waves-effect waves-light" type="submit" name="action">
+	  Submit
+	  <i class="material-icons right">send</i>
+	</button>
+      </div>
+    </form>
   </div>
 </div>
