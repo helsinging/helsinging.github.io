@@ -13,11 +13,6 @@ soprano:
   - name_en: "Liu Yining"
     name_cn: "刘伊宁"
     avatar_url: "/assets/img/avatar/liuyining.jpg"
-
-  - name_en: "Xia Jingwen"
-    name_cn: "夏静雯"
-    avatar_url: "/assets/img/avatar/xiajingwen.jpg"
-    misc: "alto"
     
   - name_en: "Chen Xinjie"
     name_cn: "陈心杰"
@@ -34,6 +29,11 @@ soprano:
     avatar_url: "/assets/img/avatar/chenwanli.jpg"
 
 alto:
+  - name_en: "Xia Jingwen"
+    name_cn: "夏静雯"
+    avatar_url: "/assets/img/avatar/xiajingwen.jpg"
+    misc: "soprano"
+
   - name_en: "Zhou Lijing"
     name_cn: "周丽晶"
     avatar_url: "/assets/img/avatar/zhoulijing.jpg"
