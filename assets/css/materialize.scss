@@ -46,7 +46,20 @@
 @import "components/date_picker/default.date";
 @import "components/date_picker/default.time";
 
-.parallax img {
-    @media #{$small-and-down} { max-width: 500%; }
-    @media #{$medium-and-up} { width: 100%; }	
+
+#logo_wrapper {
+      @media #{$small-and-down} {
+          position: relative;
+	  display: block;
+      }
+      @media #{$medium-and-up} {
+          width: auto;
+          position: absolute;
+          top:0px;
+	  right: -50px;
+      }
+}
+
+#logo_wrapper img{
+      max-height: 200px;
 }

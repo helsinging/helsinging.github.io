@@ -7,23 +7,6 @@
 
 .logo-font { font-family: 'Quicksand', sans-serif; }
 
-.parallax-container {
-    min-height: 380px;
-    height: 600px;
-    line-height: 0;
-    /* height: auto; */
-    bottom: auto;
-    width: 100%;
-}
-
-
-/* .parallax-container img { width: 100%; } */
-
-/* from https://github.com/Dogfalo/materialize/issues/3036 */
-
-
-
-.parallax-container .section { width: 100%; }
 
 nav {
     background-color: #673ab7;
@@ -51,4 +34,22 @@ nav .brand-logo { color: #fff; }
 
 .nav-wrapper i.material-icons{
     margin-left: 0px;
+}
+
+.parallex-fix{
+    width: 100%;
+}
+
+#parallax1 {
+    background: url(/assets/img/cover-images/2016.jpg) no-repeat center center fixed; 
+}
+
+
+#parallax2 {
+    background: url(/assets/img/cover-images/grassland.jpg) no-repeat center center fixed; 
+}
+
+
+#parallax3 {
+    background: url(/assets/img/cover-images/xinjie.jpg) no-repeat center center fixed; 
 }

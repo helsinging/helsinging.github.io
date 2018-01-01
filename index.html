@@ -5,19 +5,29 @@ layout: default
 
 {% capture url %}{{ site.url | append: "$" | replace: "/$", "" | replace: "$", "" }}{% endcapture %}
 
-<div class="parallax-container">
-  <div class="parallax"><img src="/assets/img/cover-images/2016.jpg" onload="fadeIn(this)" style="display:none"></div>
+<!-- <div class="parallax-container"> -->
+<!--   <div class="parallax responstive-img">     -->
+<!--     <img src="/assets/img/cover-images/2016.jpg"> -->
+<!--   </div> -->
+<!-- </div> -->
+
+
+<div>
+  <img src="/assets/img/cover-images/2016.jpg" class="responstive-img parallex-fix">
 </div>
+
         
 <div class="section no-pad">
-  <div class="valign-wrapper" style="height: 394px;">
+  <div class="valign-wrapper" style=";">
     <div class="container" style="position: relative;">
       <!-- <div class="center" style="height:125px"> -->
       <!-- 	<img src="/assets/img/logo-150.jpg" class="responsive-img" style="width: auto; max-height: 100%"/> -->
       <!-- </div> -->
       <h1 class="row center purple-text logo-font">{{ site.title }}</h1>
       <h2 class="row center purple-text logo-font"> {{ site.title_cn }}</h2>
-      <img src="/assets/img/logo-new.png" class="responsive-img right" style="width: auto; max-height: 200px; position: absolute; top:0px; right: 0px;"/>
+      <div id="logo_wrapper" class="center">
+	<img src="/assets/img/logo-new.png" class="responsive-img"/>
+      </div>
       <div class="row center">
         <h5 class="col s12 purple-text logo-font">{{ site.description }}</h5>
 	<h5 class="col s12 purple-text logo-font">{{ site.description_more }}</h5>	
@@ -33,9 +43,10 @@ layout: default
   </div>
 </div>
 
-<div class="parallax-container">
-  <div class="parallax"><img src="/assets/img/cover-images/grassland.jpg" onload="fadeIn(this)" style="display:none"></div>
+<div>
+  <img src="/assets/img/cover-images/grassland.jpg" class="responstive-img parallex-fix">
 </div>
+
 
 <div id="events" class="container">
   <div class="row">
@@ -63,13 +74,11 @@ layout: default
   </div>
 </div>
 
-<div class="parallax-container">
-  <div class="parallax">
-    
-    <img src="/assets/img/cover-images/xinjie.jpg" onload="fadeIn(this)" style="display:none">
-    
-  </div>
+
+<div>
+  <img src="/assets/img/cover-images/xinjie.jpg" class="responstive-img parallex-fix">
 </div>
+
 
 <div id="contact" class="container">
   <div class="row">
