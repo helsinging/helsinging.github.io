@@ -8,6 +8,10 @@ captain:
     name_cn: "林子元"
     avatar_url: "/assets/img/avatar/linziyuan.jpg"
 
+pianist:
+  - name_en: "Qu Chen"
+    name_cn: "曲辰"
+    avatar_url: "/assets/img/avatar/quchen.jpg"
     
 soprano:
   - name_en: "Liu Yining"
@@ -21,7 +25,7 @@ soprano:
     
   - name_en: "Xiong Tianlinzi"
     name_cn: "熊田凌子"
-    avatar_url: "/assets/img/avatar/xiongtianlinzi.jpg"
+    avatar_url: "/assets/img/avatar/xiongtianlingzi.jpg"
     misc: "3rd leader"
     
   - name_en: "Chen Wanli"
@@ -38,6 +42,10 @@ alto:
     name_cn: "周丽晶"
     avatar_url: "/assets/img/avatar/zhoulijing.jpg"
 
+  - name_en: "Pan Xiang"
+    name_cn: "潘湘"
+    avatar_url: "/assets/img/avatar/panxiang.jpg"
+    
   - name_en: "Wang Zhuo"
     name_cn: "王卓"
     avatar_url: ""
@@ -57,11 +65,6 @@ bass:
 
   - name_en: "Luo Wenbin"
     name_cn: "雒文斌"
-    avatar_url: ""
-
-instrumentist:
-  - name_en: "Qu Chen"
-    name_cn: "曲辰"
     avatar_url: ""
 
 
