@@ -1,0 +1,42 @@
+---
+layout: no_nav
+title: 2017 春夏音乐会特别版
+permalink: /2017sprummer
+---
+
+
+<style>
+  html {  min-height: 2000px;  }
+  
+  .grid-item { width: 200px; }
+  .toshow { display: none; }
+</style>
+
+<div class="section no-pad" style="margin-top:150px;">
+  <h2 class="row center blue-text logo-font" style="margin-bottom:750px;">借问表情包技术哪家强？</h2>
+  <h2 id="showBlock1" class="row center blue-text logo-font">牧童遥指<span class="red-text">赵团长！</span></h2>
+  <div class="row center" style="width:200px; margin-top: 100px;">
+    <img id="showBlock2" src="/assets/img/2017special/zhao.jpg" class="responsive-img"/>
+  </div>
+</div>
+
+<div class="section no-pad" style="margin-top:500px;">
+  <div class="row center" style="width:200px">
+    <img id="showBlock3" src="/assets/img/2017special/HXC/why.jpg" class="responsive-img"/>
+  </div>
+</div>
+
+<div class="section no-pad" style="margin-top:500px; position:relative; left: 10%; width: 90%;">
+  <div class="grid" style="">
+    {% assign shuffled  = site.data.hxc.imgs | shuffle %}
+    {% for img in shuffled %}
+    <div class="grid-item">
+      <img src="/assets/img/2017special/{{ img }}" class="responsive-img materialboxed"/>
+    </div>
+    {% endfor%}
+  </div>
+</div>
+
+
+
+
