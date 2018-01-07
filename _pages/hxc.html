@@ -48,7 +48,8 @@ permalink: /2017sprummer
   
   {% for i in (1..n_slides) %}
   {% assign offset = forloop.index0 | times: n_imgs_per_slide %}
-  <section style="">
+  {% assign transitions = "slide-in fade-out,fade-in slide-out,zoom" | split: ',' %}
+  <section data-transition="{{ transitions | random }}">
     <div class="row" style="margin:0 auto;">
       {% for img in imgs limit:n_imgs_per_slide offset:offset %}
       <div class="col m3">
