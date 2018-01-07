@@ -41,25 +41,23 @@ permalink: /2017sprummer
   <!--     {% endfor %} -->
   <!--   </div> -->
   <!-- </section> -->
-<section id="collage">
 
   {% assign n_imgs_per_slide = 4.0 %}
   {% assign imgs = site.data.hxc.imgs | shuffle %}
   {% assign n_slides = imgs.size | divided_by: n_imgs_per_slide | ceil %}
-    
+  
   {% for i in (1..n_slides) %}
   {% assign offset = forloop.index0 | times: n_imgs_per_slide %}
-    <section style="">
-      <div class="row" style="margin:0 auto;">
-	{% for img in imgs limit:n_imgs_per_slide offset:offset %}
-	<div class="col m3">
-	  <img src="/assets/img/2017special/{{ img }}" class="responsive-img materialboxed"/>
-	</div>
-	{% endfor %}
+  <section style="">
+    <div class="row" style="margin:0 auto;">
+      {% for img in imgs limit:n_imgs_per_slide offset:offset %}
+      <div class="col m3">
+	<img src="/assets/img/2017special/{{ img }}" class="responsive-img materialboxed"/>
       </div>
-    </section>
+      {% endfor %}
+    </div>
+  </section>
   {% endfor %}
-</section>
 
 <section data-transition="fade-in">
   <h2 class="orange-text lighten-3">谨此纪念那个逗逼的夏天</h2>
