@@ -14,6 +14,10 @@ pianist:
     avatar_url: "/assets/img/avatar/quchen.jpg"
     
 soprano:
+  - name_en: "Chen Wen"
+    name_cn: "陈文"
+    avatar_url: "/assets/img/avatar/chenwen.jpg"
+    
   - name_en: "Liu Yining"
     name_cn: "刘伊宁"
     avatar_url: "/assets/img/avatar/liuyining.jpg"

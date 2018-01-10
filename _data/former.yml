@@ -102,10 +102,6 @@ soprano:
     name_cn: "陈佳佳"
     avatar_url: "/assets/img/avatar/chenjiajia.jpg"
 
-  - name_en: "Chen Wen"
-    name_cn: "陈文"
-    avatar_url: "/assets/img/avatar/chenwen.jpg"
-
   - name_en: "Ma Ying"
     name_cn: "马莹"
     avatar_url: "/assets/img/avatar/maying.jpg"
