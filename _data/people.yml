@@ -36,6 +36,10 @@ soprano:
     name_cn: "陈婉丽"
     avatar_url: "/assets/img/avatar/chenwanli.jpg"
 
+  - name_en: "Pan Xiang"
+    name_cn: "潘湘"
+    avatar_url: "/assets/img/avatar/panxiang.jpg"
+
 alto:
   - name_en: "Xia Jingwen"
     name_cn: "夏静雯"
@@ -45,10 +49,6 @@ alto:
   - name_en: "Zhou Lijing"
     name_cn: "周丽晶"
     avatar_url: "/assets/img/avatar/zhoulijing.jpg"
-
-  - name_en: "Pan Xiang"
-    name_cn: "潘湘"
-    avatar_url: "/assets/img/avatar/panxiang.jpg"
     
   - name_en: "Wang Zhuo"
     name_cn: "王卓"
