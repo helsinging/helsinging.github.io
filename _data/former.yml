@@ -1,4 +1,9 @@
 captain:
+  - name_en: "Xiong Tianlinzi"
+    name_cn: "熊田凌子"
+    avatar_url: "/assets/img/avatar/xiongtianlingzi.jpg"
+    misc: "3rd leader"
+    
   - name_en: "Zhao Yue"
     name_cn: "赵玥"
     avatar_url: "/assets/img/avatar/zhaoyue.jpg"
